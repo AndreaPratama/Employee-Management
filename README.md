@@ -19,27 +19,37 @@ The task is to design and build an interactive Power BI report that provides cle
 - Interactive dashboard design
 - Drill-down and filter implementation for dynamic exploration
 - DAX (Data Analysis Expressions) for complex calculations
+- Design dashboard using Figma
 - Implement UI/UX
 - Next Level KPI
 
 ## Data Sourcing
-The dataset used in this project is provided as part of the Onyx Data October 2024 Challenge.The dataset includes anonymized employee management data with key details such as job satisfaction scores, productivity metrics, overtime hours, training hours, team size, salary classifications, remote work frequency, project volume, turnover rates, and promotion status. This data is leveraged to provide insights on workforce performance, productivity, and retention trends.
+The dataset used in this project is provided as part of the Onyx Data October 2024 Challenge.The dataset includes anonymized employee management data with key details such as job satisfaction scores, productivity metrics, overtime hours, training hours, team size, salary classifications, remote work frequency, project volume, turnover rates, promotion status and more. This data is leveraged to provide insights on workforce performance, productivity, and retention trends.
 
 More Information About This Challenge: [Onyx Data October 2024 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/onyx-data-october-2024)
 
 ## Data Transformation
 Data transformation involved the following steps:
 1. **Data Cleaning**: Removing duplicates, handling missing values, and correcting inconsistencies.
-2. **Data Aggregation**: Summarizing data by month, sales agent, industry, and country.
-3. **Feature Engineering**: Creating new features such as month-over-month changes, response times, and sales cycle duration.
+2. **Create New Calculated Columns**: For better aggregation and gain more insight,such as salary classifications, sick days categories and more.
+3. **DAX Functions**: Were used for data manipulation and calculations
 
 ## Modeling
-The project involved creating various models to derive insights:
-1. **Descriptive Models**: To understand current and historical sales performance.
-2. **Predictive Models**: Using historical data to forecast future sales trends and potential income.
-3. **Diagnostic Models**: Analyzing factors influencing sales performance, conversion rates, and deal values.
 
-In this project, I created a calendar table to facilitate time-based analysis. The calendar table contains information about dates, months, years, quarters, and more, which allows for better data analysis based on time dimensions. The calendar table is also used to create time relationships in the data model.
+The Modeling stage focused on enhancing the dataset using DAX to create calculated columns and measures that drive insights in the dashboard. 
+Key DAX formulas used include:
+
+1. **KPI Calculations** : Measures like Turnover Rate, Retention Rate, and Average Satisfaction were created to assess workforce stability and satisfaction trends.
+
+2. **Calculated Columns**: Additional columns, such as Monthly Salary Classification and Sick Leave Categorization, were created to segment employees based on salary range and sick days, enabling a more detailed analysis.
+
+- KPI 
+
+![](kpi_performance.png)
+
+![](kpi_productivity.png)
+
+- Create New Columns
 
 | DAX | Result |
 |----------|----------|
@@ -50,28 +60,6 @@ In this project, I created a calendar table to facilitate time-based analysis. T
 | ![](satisfaction.png) | ![](satisfaction_result.png) |
 | ![](team_size.png) | ![](team_size_result.png) |
 | ![](employee_status.png) | ![](employee_status_result.png) |
-
-And Create Relationship between Date Table and Fact Table
-
-![](data_modeling.png)
-
-Various DAX measures were used to calculate time-based metrics and other analyses. These measures helped in analyzing trends and identifying patterns in the CRM data. Some of the key DAX measures include:
-
-KPI Card
-
-![](dax_kpi.png)
-
-Detailed KPI
-
-![](dax_detailed.png)
-
-Reference KPI
-
-![](dax_reference.png)
-
-Accuracy
-
-![](dax_acuracy.png)
 
 
 ## Analyze & Visualization
@@ -93,7 +81,7 @@ The analysis and visualization were done using Power BI to create an interactive
 - Performance
 - Productivity
 
-You can interact with report here [FP20 Analytics Challenge 15 Dashboard](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/5204e2eca27ba518bba8b95278284ef1?challenge=fp20-analytics-july-2024)
+You can interact with report here [Onyx Data October 2024 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/aab2fee7ddbb932a58782c4438ef04e3?challenge=onyx-data-october-2024)
 
 ![](employe_management.png)
 
