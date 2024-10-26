@@ -24,7 +24,7 @@ The task is to design and build an interactive Power BI report that provides cle
 - Next Level KPI
 
 ## Data Sourcing
-The dataset used in this project is provided as part of the Onyx Data October 2024 Challenge.The dataset includes anonymized employee management data with key details such as job satisfaction scores, productivity metrics, overtime hours, training hours, team size, salary classifications, remote work frequency, project volume, turnover rates, promotion status and more. This data is leveraged to provide insights on workforce performance, productivity, and retention trends.
+The dataset used in this project is provided as part of the **Onyx Data October 2024 Challenge**.The dataset includes anonymized employee management data with key details such as job satisfaction scores, productivity metrics, overtime hours, training hours, team size, salary classifications, remote work frequency, project volume, turnover rates, promotion status and more. This data is leveraged to provide insights on workforce performance, productivity, and retention trends.
 
 More Information About This Challenge: [Onyx Data October 2024 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/onyx-data-october-2024)
 
