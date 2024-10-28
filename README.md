@@ -83,7 +83,7 @@ The analysis and visualization were done using Power BI to create an interactive
 
 You can interact with report here [Onyx Data October 2024 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/aab2fee7ddbb932a58782c4438ef04e3?challenge=onyx-data-october-2024)
 
-![](employe_management.png)
+![](Employe_Management.png)
 
 ## Conclusion
 The analysis provided several key insights:
