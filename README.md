@@ -101,4 +101,13 @@ The analysis provided several key insights:
 - **Project Volume Over Time**: Project volume has been stable from 2015 to 2022 (~240K projects), with a notable drop in 2024 (~160K). Remote work remains dominant over in-office work.
 - **Overtime by Day:**:  Higher average overtime hours are more common at the beginning of the week, especially on Mondays.
 
+## Achievements
+- 🥇 **1st Place** in the October DataDNA Analytics Challenge.
+- 🏆 Received "The Storyteller" badge, recognizing excellence in data visualization and storytelling.
 
+
+| 1st Place | Badge |
+|----------|----------|
+| ![](1st_certificate.jpg) | ![](badge.jpg) |
+
+These achievements highlight the effectiveness and impact of the dashboard in conveying meaningful insights and storytelling through data.
