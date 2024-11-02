@@ -81,7 +81,7 @@ The analysis and visualization were done using Power BI to create an interactive
 - Performance
 - Productivity
 
-You can interact with report here [Onyx Data October 2024 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/aab2fee7ddbb932a58782c4438ef04e3?challenge=onyx-data-october-2024)
+You can interact with report here [Onyx Data October 2024 Challenge Dashboard](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/submission/aab2fee7ddbb932a58782c4438ef04e3?challenge=onyx-data-october-2024)
 
 ![](Employe_Management.png)
 
@@ -109,5 +109,7 @@ The analysis provided several key insights:
 | 1st Place | Badge |
 |----------|----------|
 | ![](1st_certificate.jpg) | ![](badge.jpg) |
+
+Winner Announcement [Onyx Data](https://www.linkedin.com/posts/onyxdata_onyx-data-datadna-challenge-october-winners-activity-7257662701798113280-0p3h?utm_source=share&utm_medium=member_desktop) & [Zoomchart](https://www.linkedin.com/posts/zoomcharts_datadna-powerbi-datachallenge-activity-7257412086794780673-kue2?utm_source=share&utm_medium=member_desktop)
 
 These achievements highlight the effectiveness and impact of the dashboard in conveying meaningful insights and storytelling through data.
